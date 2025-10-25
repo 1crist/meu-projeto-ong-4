@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ONG Exemplo — SPA</title>
+  <meta name="description" content="ONG Exemplo - projetos sociais, voluntariado e doações." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <img src="images/logo.png" alt="Logo ONG Exemplo" class="logo" />
+      <nav aria-label="Navegação principal">
+        <ul class="main-nav">
+          <li><a href="#home" data-route="home">Início</a></li>
+          <li><a href="#projetos" data-route="projetos">Projetos</a></li>
+          <li><a href="#cadastro" data-route="cadastro">Cadastro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="container"></main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> ONG Exemplo — Todos os direitos reservados.</p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
